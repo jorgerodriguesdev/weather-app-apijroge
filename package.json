@@ -1,0 +1,43 @@
+{
+  "name": "weather-app",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://github.com/jorgerodriguesdev/weather-app-apijroge",
+  "dependencies": {
+    "bootstrap": "^3.4.1",
+    "gh-pages": "^2.1.1",
+    "jquery": "^3.4.1",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-notifications": "^1.4.3",
+    "react-notify-toast": "^0.5.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.2.0",
+    "react-toastify": "^5.4.0",
+    "sweetalert2": "^8.18.5",
+    "sweetalert2-react-content": "^1.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
